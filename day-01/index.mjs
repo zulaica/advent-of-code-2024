@@ -24,3 +24,11 @@ const totalDistance = listA.reduce(
 );
 
 console.info(`Total Distance: ${totalDistance}`);
+
+let similarityScore = 0;
+
+listA.forEach(
+  (a) => (similarityScore += a * listB.filter((b) => a === b).length)
+);
+
+console.info(`Similarity Score: ${similarityScore}`);
