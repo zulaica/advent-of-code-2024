@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "0.0.0",
+  "description": "[https://adventofcode.com/2024](https://adventofcode.com/2024)",
+  "license": "UNLICENSED",
+  "author": "David Zulaica",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulaica/advent-of-code-2024.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zulaica/advent-of-code-2024/issues"
+  },
+  "homepage": "https://github.com/zulaica/advent-of-code-2024#readme",
+  "volta": {
+    "node": "22.11.0"
+  }
+}
